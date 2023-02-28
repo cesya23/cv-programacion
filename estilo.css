@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(165, 240, 232);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 80vh;
+}
+section#principal{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+section#principal h1{
+    font-size: 3rem;
+}
+section#principal h2{
+    font-size: 2rem;
+}
+section#empleos{
+    display: flex;
+} 
+section#empleos h2{
+    text-align: left;
+    justify-content: center;
+}
+section#educacion{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
+section#educacion h2{
+    text-align: center;
+    justify-content: center;
+}.UNL{
+    display: flex;
+  border: 15px ;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.trabajos{
+    display: flex;
+  border: 15px ;
+    width: 590px;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 30px;
+
+}
+.trabajos img{
+    width: 100%;
+}
+header{
+    padding-top: 20px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(144, 146, 247);
+
+}
+footer{
+    width: 100%;
+
+justify-content: left;
+align-items: left;
+}
